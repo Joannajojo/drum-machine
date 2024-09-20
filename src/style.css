@@ -1,0 +1,55 @@
+body{
+  background-color: rgba(82, 122, 82);
+}
+
+#drum-machine{
+    background-color: rgba(151, 204, 151);
+  display:flex;
+  align-items: center;
+  width:70%;
+  margin: 0 auto;
+  border: 5px solid yellow;
+  padding:45px;
+}
+
+#drum-pads{
+  width:40%;
+  margin-left:20px;
+}
+.row{
+  display:flex;
+  flex-direction: row;
+  margin: 0 auto;
+  
+}
+
+
+
+.row button{
+  background-color: rgba(104, 179, 104);
+  width:26%;
+  padding:15px;
+  margin:10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#display{
+  background-color:rgba(186, 207, 186);
+  width: 40%;
+  height:40px;
+  margin: 0 auto;
+  text-align: center;
+  padding:5px;
+  font-weight:bold;
+} 
+
+h1{
+  text-align:center;
+  margin: 10px;
+  color:white;
+}
+
+p{
+  text-align:center;
+  margin: 10px;
+}
